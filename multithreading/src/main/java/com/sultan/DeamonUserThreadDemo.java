@@ -19,7 +19,6 @@ class DeamonHelper implements Runnable {
             try {
                 Thread.sleep(1000);
             } catch (InterruptedException e) {
-                // TODO Auto-generated catch block
                 e.printStackTrace();
             }
             count++;
@@ -34,7 +33,7 @@ class UserThreadHelper implements Runnable {
         try {
             Thread.sleep(5000);
         } catch (InterruptedException e) {
-            // TODO Auto-generated catch block
+
             e.printStackTrace();
         }
 

@@ -12,7 +12,6 @@ public class ProducerConsumer {
             try {
                 worker.produce();
             } catch (InterruptedException e) {
-                // TODO Auto-generated catch block
                 e.printStackTrace();
             }
         });
@@ -21,7 +20,6 @@ public class ProducerConsumer {
             try {
                 worker.consume();
             } catch (InterruptedException e) {
-                // TODO Auto-generated catch block
                 e.printStackTrace();
             }
         });

@@ -8,7 +8,6 @@ public class WaitAndNotifyDemo {
             try {
                 one();
             } catch (InterruptedException e) {
-                // TODO Auto-generated catch block
                 e.printStackTrace();
             }
         });
@@ -17,7 +16,6 @@ public class WaitAndNotifyDemo {
             try {
                 two();
             } catch (InterruptedException e) {
-                // TODO Auto-generated catch block
                 e.printStackTrace();
             }
         });
